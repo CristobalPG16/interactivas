@@ -1,5 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Catamaran";
+}
+
 header{
     width: 100%;
+}
+
+.footer{
+    width: 100%;
+    padding: 4em 0;
+    background-size: cover;
+    background: url(../img/05.png);
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    
 }
 
 
@@ -77,6 +94,10 @@ header{
     font-size: 1.7em;
     color:black;
 }
+
+.offers{
+    text-align: center;
+}
  
 
 .prices-btn{
@@ -93,6 +114,12 @@ header{
     text-decoration: none;
 }
 
+.img-stadistics{
+    width: 100%;
+    padding: 2em 0 0;
+    margin: 0em;
+}
+
 .stadistic-title{
     font-family: "Catamaran";
     font-weight: 900;
@@ -100,6 +127,15 @@ header{
     margin: 0 1em;
     font-size: 2em;
     color:black;
+}
+
+.row{
+    width: 100%;
+}
+
+.col{
+    width: 50%;
+    float: left;
 }
 
 .number-text{
@@ -120,10 +156,13 @@ header{
     color: #ff690f;
 }
 
+.quote{
+text-align: center;
+}
+
 .testimonial{
     font-family: "Catamaran";
     font-weight: 900;
-    text-align: center;
     margin: 3em 0 0 0;
     font-size: 1.5em;
     color:black;
@@ -132,23 +171,24 @@ header{
 .testimonial-text{
     font-family: "Catamaran";
     font-weight: 400;
-    text-align: center;
     margin: 0 4em 0;
     font-size: 1em;
     color:black;
 }
 
 .footer{
-    background-size: 5em;
+    width: 100%;
+    padding: 4em 0;
+    background-size: cover;
     background: url(../img/05.png);
     background-size: cover;
-    background-position: right bottom;
+    background-position: center bottom;
     
 }
 
-.logo-footer{
-    float: ;
-    size: 5em;
+.footer-link{
+    size: 1.5em;
+    color: white;
 }
 
 .footer-text{
@@ -158,4 +198,21 @@ header{
     margin: auto;
     font-size: 3em;
     color:white;
+}
+
+.btn-social-media{
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-nav-item{
+    display: inline;
+    margin: 0 1.3em;
+}
+
+.reward-section{
+    padding: 1em 2em;
+    background: #fff;
+    color: black;
+    text-align: center;
 }
