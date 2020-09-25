@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Front-end Developer</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="top-bar">
+            
+            <span class="mob-menu fas fa-bars" onclick="openMobileMenu()"></span>
+            <a class="logo" href="#">
+                <img src="./images/logo.png" alt="Logo">
+            </a>
+
+            <ul class="top-nav">
+                <span class="mob-close fas fa-window-close" onclick="closeMobileMenu()"></span>
+                
+                <li class="top-nav-item"><a class="top-nav-link" href="#">HOME</a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">ABOUT</a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">WORK</a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">BLOG</a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">CONTACT</a></li>
+                <li class="top-nav-item"><a class="request-btn request-btn-m" href="#">Request for quote</a></li>
+            </ul>
+        </nav>
+        <section class="intro-section">
+            <h1 class="intro-title"></h1>
+            <a class="download-btn" href="#"><i class="fas fa-download"></i><span class="btn-label">Download CV</span></a>
+            <!--<button onclick="change();">Change this text</button>-->
+        
+        </section>
+    </header>
+    <!-- header -->
+    
+    <!-- about -->
+    <section class="about-section">
+        <h2 class="secondary-title" data-aos="fade-right">About</h2>
+        <h3 class="about-intro">I transform ideas into digital solutions that help clients better connect with their audiences. I believe having a clean and minimal design is the best way to make websites elegant and functional...</h3>
+        <p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+        <p class="about-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p class="about-text">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>
+    <!-- about -->
+
+    <!-- quote  -->
+    <section class="quote-section">
+        <!-- icon -->
+        <span class="fa-stack fa-2x">
+            <i class="fas fa-comment quote-icon fa-stack-2x"></i>
+            <i class="fas fa-quote-right quote-color fa-stack-1x"></i>
+        </span>
+        
+        <p class="quote-text">Design is a plan for arranging elements in such a way as best to accomplish a particular purpose.</p>
+        <p class="quote-author">- Charles Eames</p>
+    </section>
+    <!-- quote  -->
+
+    <!-- contact -->
+    <section class="contact-section">
+        <h2 class="secondary-title">Contact</h2>
+        <p>Start your project today or Maybe you&rsquo;re here just to say &lsquo;Hi&rsquo;?</p>
+
+        <form class="contact-form" action="" onsubmit="return checkForm(this);">
+
+            <div class="row">
+                <div class="col">
+                    <input id="contact_name" class="input-text" type="text" placeholder="Name *">
+                </div>
+                <div class="col">
+                    <input id="contact_email" class="input-text" type="text" placeholder="Email *">
+                </div>
+            </div>
+            
+            <div class="row">
+                <textarea id="contact_message" class="text-area" name="" placeholder="Message *" cols="30" rows="10"></textarea>
+            </div>
+            
+           <div class="row">
+                <input class="submit-btn" type="submit" value="SEND NOW">
+           </div>
+            
+        </form>
+
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <footer>
+        <nav>
+            <ul class="bottom-nav">
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fas fa-envelope"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-dribbble"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </nav>
+        <hr>
+        <p class="footer-disclaimer">2020 All Rights Reserved.</p>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.1.1/validator.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,325 @@
+/*
+Html tags
+*/
+
+/*
+Siempre resetear el body con 
+
+body{
+margin: 0;
+padding: 0;
+}
+*/
+
+/*
+ID = usar este comentario para decir cuando estoy trabajando con id
+*/
+
+/*
+.nombre de clase{}
+#Id{}
+
+!important cambia las jerarquias de estilo y ponen a esta como la mas importante
+*/
+
+/*Como ordenar el codigo para que se entienda mejor
+
+position: position, z-index, bottom, top, left, rigth
+display & box model:  display, overflow, box-sizing, width, height, padding, margin, border
+color: background, color
+text: font-size, font-family, line heigth, text-aling
+otros: cursor,  
+
+
+*/
+
+@font-face {
+    font-family: 'ChunkFivePrintRegular';
+    src: url('/Fonts/chunk_five_print-webfont.woff2') format('woff2'),
+         url('/Fonts/chunk_five_print-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('/Fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+         url('/Fonts/chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*------------------header------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+header{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    padding: 0.5em 0;
+    background: #181b1e;
+    text-align: center;
+}
+
+hr{
+    width: 6em;
+    height: 5px;
+    border: none;
+    background: #ffc36e;
+}
+
+.secondary-title{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.top-bar{
+    width:100%;
+    padding: 1em 0 4em;
+    background: #181b1e;
+}
+
+.logo{
+    float: left;
+    margin: 0.5em 0 0 10em;
+}
+
+.top-nav{
+    margin: 0 15em;
+    padding: 0;
+    float:right;
+}
+
+.top-nav-item{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+
+.top-nav-item-request{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.top-nav-link{
+    display: block;
+    font-weight: 300;
+    color: #aaabab;
+    text-decoration: none;
+    padding-bottom: 0.8em;
+}
+
+.top-nav-link:hover{
+    color #fff;
+    border-bottom: .3em solid #f44336;
+}
+
+.request-btn{
+    display: block;
+    padding: 0.5em;
+    border: 0.1em solid #00bad2;
+    border-radius: .2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: none;
+}
+
+.request-btn:hover{
+    background: #00bad2;
+}
+
+.request-btn-m{
+    margin: 0 3em;
+}
+
+.intro-section{
+    width: 100%;
+    padding: 5em 0;
+    background: url(../img/mountain-bg.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+.intro-title{
+    padding:  0 6em;
+    color: #fff;
+    font-weight: 100;
+    font-size: 4em;
+    text-align: center;
+}
+
+.download-btn{
+    display: block;
+    margin: auto;
+    width: 8em;
+    padding: 1em;
+    border-radius: 0.3em;
+    text-align: center;
+    background: #f44336;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+/*------------------header------------------*/
+
+
+/*------------------about------------------*/
+
+.about-section{
+    padding: 2em 5em;
+    background: #f2f2f2;
+    color: #212121;
+    text-align:center;
+}
+.about-intro{
+    padding: 0em 15em;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+.about-text{
+        padding: 0em 20em;
+    font-weight: 300;
+}
+
+/*------------------about------------------*/
+
+/*------------------quote------------------*/
+.quote-section{
+    padding: 6em 15em;
+    background: url(../img/quote-bg.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+}
+.quote-icon{
+    color:#f44336;
+}
+.quote-color{
+    color: #181b1e;
+}
+.quote-text{
+    font-weight: 100;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 0 15em;
+}
+.quote-author{
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #00bad2;
+}
+/*------------------quote------------------*/
+
+/*------------------contact------------------*/
+
+.contact-section{
+    padding: 2em 25em;
+    background: #f2f2f2;
+    color: #212121;
+    text-align: center;
+}
+.contact-form{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+}
+.col{
+    width:50%;
+    float: left;
+}
+.input-text{
+    width: 90%;
+    padding: 1em;
+}
+.text-area{
+    width: 95%;
+    height: 10em;
+    margin: 2em 0;
+    padding: 1em;
+    font-family: 'Roboto';
+}
+.submit-btn{
+    width: 98%;
+    background: #f2f2f2;
+    border: .1em solid #00bad2;
+    padding: 1em;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: #00bad2;
+    color: #fff;
+}
+
+/*------------------contact------------------*/
+
+
+/*------------------Footer------------------*/
+
+.bottom-nav{
+    margin: 0;
+    padding:0;
+}
+.bottom-nav-item{
+    display: inline-block;
+    margin: 1em 2em;
+}
+.footer-link{
+    font-size: 1.5em;
+    color: #626262;
+}
+.footer-link:hover{
+    color:#f44336;
+}
+.footer-disclaimer{
+    color: #626262;
+}
+
+/*------------------Footer------------------*/
+
+
+
+
+/*
+a{esto es para los hipervinculos
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover{esto es para cuando pasas el mouse por encima
+    color: black;
+}
+
+h1{
+    font-family: "Roboto";
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#main-text{
+    
+    width: 2em;
+    height: 2em;
+    background: #000000;
+    color: #ffffff;
+    font-family: Arial;
+    
+
+}
+
+.top-text{
+    font-size: 5em;
+}
+*/

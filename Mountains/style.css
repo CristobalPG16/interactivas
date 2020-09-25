@@ -1,0 +1,161 @@
+header{
+    width: 100%;
+}
+
+
+.top-bar{
+    width:100%;
+    padding: 1em 0 1em;
+    background: #202020;
+}
+
+.logo-top-text{
+    float: left;
+    size: 3em;
+}
+
+.top-text{
+    font-family: "Catamaran";
+    font-weight: 900;
+    font-size: 0.8em;
+}
+
+.intro-section{
+    padding: 1em 0;
+    background-size: 5em;
+    background: url(../img/07.jpg);
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.title-text{
+    font-family: "Catamaran";
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    color: #fff;
+}
+
+.details-btn{
+    font-family: "catamaran";
+    font-weight: 900;
+    display: block;
+    margin: 0 3em 0;
+    width: 8em;
+    padding: 1em;
+    text-align: center;
+    background: #ff690f;
+    color: #fff;
+    text-decoration: none;
+
+} 
+
+.offer-title{
+    font-family: "Catamaran";
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    color:black;
+}
+
+.little-text{
+    font-family: "Catamaran";
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+    color:black;
+}
+
+.offer-text{
+    font-family: "Catamaran";
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    font-size: 1.7em;
+    color:black;
+}
+ 
+
+.prices-btn{
+    font-family: "catamaran";
+    font-weight: 900;
+    display: block;
+    margin: auto;
+    width: 8em;
+    padding: 1em 3em;
+    border-radius: 0.3em;
+    text-align: center;
+    background: #ff690f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.stadistic-title{
+    font-family: "Catamaran";
+    font-weight: 900;
+    text-align: center;
+    margin: 0 1em;
+    font-size: 2em;
+    color:black;
+}
+
+.number-text{
+    font-family: "Catamaran";
+    font-weight: 400;
+    text-align: center;
+    margin: 0 1em;
+    font-size: 1em;
+    color:black;
+}
+
+.number{
+    font-family: "Catamaran";
+    font-weight: 900;
+    text-align: center;
+    margin: 0 1em;
+    font-size: 2em;
+    color: #ff690f;
+}
+
+.testimonial{
+    font-family: "Catamaran";
+    font-weight: 900;
+    text-align: center;
+    margin: 3em 0 0 0;
+    font-size: 1.5em;
+    color:black;
+}
+
+.testimonial-text{
+    font-family: "Catamaran";
+    font-weight: 400;
+    text-align: center;
+    margin: 0 4em 0;
+    font-size: 1em;
+    color:black;
+}
+
+.footer{
+    background-size: 5em;
+    background: url(../img/05.png);
+    background-size: cover;
+    background-position: right bottom;
+    
+}
+
+.logo-footer{
+    float: ;
+    size: 5em;
+}
+
+.footer-text{
+    font-family: "Catamaran";
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+    color:white;
+}
